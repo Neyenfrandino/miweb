@@ -3,58 +3,56 @@
 <head>
     <style>
         table, th, td {border:1px solid black;}
-
-        
     </style>
     <title>MercedesBenz</title>
+    <link rel="stylesheet" href="examen.css">
 </head>
 <body>
-<div>
     <div>
-         <ul>
-         <li><h1>Mercedes-Benz A-Class Release</h1></li>
-        <p><b>Lo unico importante...</b></p>
-         <img src="img/Mercedes benz postada 1 y 2.webp" width="1000"
-        </ul>
+        <header>
+             <h1>Mercedes-Benz A-Class Release</h1>
+        </header>
     </div>
-          <div>
-            <b><a <span style="color:crimson" href="https://www.youtube.com/watch?v=SkxAFPKJMqw">
-                Viajemos al fututo y conoscamos a Mercedes-Benz A-Class Release...</a></b>
-                
-
-          </div>
-</div>
-
+    <div class="normal">  
+        <p><b>Lo unico importante...</b></p>
+         <img src="img/Mercedes benz postada 1 y 2.webp" width="1000">
+        <article class="anormal">
+                    <b><a <span style="color:black" href="https://www.youtube.com/watch?v=SkxAFPKJMqw">
+                    Viajemos al fututo y conoscamos a Mercedes-Benz A-Class Release...</a></b>
+        </article>
+    </div>
     <hr>
-
-<div>
-    <ul>
-        <li><h3>Cuenta con un motor motor V8 de 6.2 litros y 455 caballos de fuerza</h3></li>
+<section class="conteiner">
+    <article>
+        <h3>Cuenta con un motor motor V8 de 6.2 litros y 455 caballos de fuerza</h3>
         <img src="img/Mercedes motor.jpg" width="500"
         <br>
         <p> El Mercedes-Benz A 200 d (2015-2018) tiene un motor gasóleo de 2143 cc con 4 <br>
             cilindros situados en línea que alcanza una potencia máxima de 136 CV a 3200-4000 rpm y <br>
              par máximo de 300 nm a 1400-3000 rpm. Se trata por consiguiente de una mecánica con una  <br>
              potencia concreta de 136 CV, con alimentación geometría variable.</p>
-    </ul>
-</div>
+    </article>
+</section>
 <hr>
-<div>
-    <ul>
-        <li><h3>Hay cosas que se disfrutan mas cuando estan en tus manos</h3></li>
+<div id="unico">
+    <article>
+        <h3>Hay cosas que se disfrutan mas cuando estan en tus manos</h3>
         <div>
             <img src="Img/Mercedes interior.jpg" width="300">
             <img src="img/Mercedes interior 2.jpg" width="300"/>
+        </div>
+        <div>
             <img src="img/Mercedes interior 3.jpg" width="300"/>
         </div>
         <br>
         <h1>"Mercedes o Nada"</h1>
-    </ul>
+        <br>
+    </article>
 </div>
 
-<div style="color:darkviolet">      
+<div class="Formulario">      
             <form action="Formulario" method="post">
-                <h3 style="color:turquoise">Pedi tu asesoramiento, nos contactaremos contigo...</h3>
+                <h3>Pedi tu asesoramiento, nos contactaremos contigo...</h3>
                 <label for="Nombre">Nombre</label>
                 <input id="Nombre" placeholder="Ej.: juan Manuel">
                 <label for="Apellido">Apellido</label>
@@ -67,7 +65,7 @@
                 <br><br>
                 <textarea id="Comentario" placeholder="Dejanos tu comentario y te contactaremos..." 
                 cols="100" rows="10"></textarea>
-                <input type="button">
+                <input type="submit">
             </form>
         
 </div>      
